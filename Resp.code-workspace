@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "htmlcass",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "htmlcass"
+	}
+}
