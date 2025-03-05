@@ -8,8 +8,25 @@
       
     }
     .nav-links{
-        display: none ;
+        position: absolute;
+        background-color: white;
+        left : -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+        transition: 0.3s ease-in-out;
+
     }
+    .nav-links.active{
+        left:0;
+    }
+    .main-nav{
+        overflow: initial;
+    }
+    .nav-links ul{
+        flex-direction: column;
+    }
+
     .example-card{
         width: calc(50% - 10px);
         height: 180px;
@@ -20,6 +37,7 @@
     .cta-section{
         padding-block: 80px;
     }
+
 
     
 }

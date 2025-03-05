@@ -121,6 +121,7 @@ background-color : var(--accent-color-dark);
 .main-nav{
     justify-content: space-between;
     margin-top: 20px;
+    position: relative;
   
 }
 
@@ -187,6 +188,7 @@ max-width: 40vw;
 
 .features-heading-text{
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .features-card{
