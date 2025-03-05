@@ -49,4 +49,7 @@
     .link-column{
      align-items: stretch;
     }
+    .subfooter-container{
+        flex-direction: column;
+    }
 }
